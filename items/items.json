@@ -593,13 +593,6 @@
 		"codes": "Desert Flood Room Flood Controls (Panel)"
 	},
 	{
-		"name": "Desert Elevator Door",
-		"type": "toggle",
-		"loop": "true",
-		"img": "images/Door.png",
-		"codes": "Desert Elevator Door"
-	},
-	{
 		"name": "Quarry Entry 1 (Panel)",
 		"type": "toggle",
 		"loop": "true",
@@ -1236,6 +1229,13 @@
 		"loop": "true",
 		"img": "images/Door.png",
 		"codes": "Desert Door to Elevator Room"
+	},
+	{
+		"name": "Desert Elevator Door",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/Door.png",
+		"codes": "Desert Elevator Door"
 	},
 	{
 		"name": "Quarry Main Entry 1",
