@@ -1216,7 +1216,7 @@
 				"name": "Door to Stoneworks Right",
 				"access_rules": [
 					"$isNotPanelsOnlyOrHasPanel|Quarry Door to Stoneworks (Panel), @Places/quarry, $canSolve|158122",
-					"showSnipes, $isNotPanelsOnlyOrHasPanel|Quarry Door to Stoneworks (Panel), randomizationVanilla, [@Places/quarry], $canSolve|158122, @Places/overworld"
+					"showSnipes, $isNotPanelsOnlyOrHasPanel|Quarry Door to Stoneworks (Panel), randomizationVanilla, [@Places/quarry], @Places/overworld, $canSolve|158122"
 				]
 			}
 		],
@@ -4745,7 +4745,7 @@
 			{
 				"name": "Final Room Pillars Right",
 				"visibility_rules": [ "$isNotDisabledByPostgame|211297" ],
-				"access_rules": [ "@Places/mountainFinalRoom, $canSolve|158522-158525" ]
+				"access_rules": [ "$canSolve|158522-158525, @Places/mountainFinalRoom" ]
 			}
 		],
 		"map_locations": [
