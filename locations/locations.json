@@ -879,10 +879,7 @@
 			},
 			{
 				"name": "Laser",
-				"access_rules": [
-					"@Desert/Final Hexagonal, @Desert/Final Bent 3, @Places/overworld",
-					"$isNotLaserShuffle, @Desert/Final Hexagonal, @Desert/Final Bent 3"
-				]
+				"access_rules": [ "@Desert/Final Hexagonal, @Desert/Final Bent 3, @Places/overworld" ]
 			},
 			{
 				"name": "Laser Activation",
@@ -1247,8 +1244,7 @@
 				"name": "Front Row",
 				"access_rules": [
 					"$canSolve|158149-158153, @Places/quarryBoathouseUpstairsFront",
-					"showSnipes, $canSolve|158149-158153, [@Places/quarryBoathouseUpstairsFront], @Places/quarry",
-					"showSnipes, $canSolve|158149-158153, [@Places/quarryBoathouseUpstairsFront], @Places/quarryUpstairsBack"
+					"showSnipes, $canSolve|158149-158153, [@Places/quarryBoathouseUpstairsFront], @Places/quarry"
 				]
 			},
 			{
@@ -1548,7 +1544,8 @@
 			},
 			{
 				"name": "Laser Activation",
-				"visibility_rules": [ "$isNotLaserShuffle" ]
+				"visibility_rules": [ "$isNotLaserShuffle" ],
+				"access_rules": [ "@Shadows Laser/Laser" ]
 			}
 		],
 		"map_locations": [
@@ -2117,7 +2114,7 @@
 			{
 				"name": "Laser",
 				"visibility_rules": [ "Unrandomized" ],
-				"access_rules": [ "@Monastery/Inside Puzzles, @Places/monastery, @Places/overworld" ]
+				"access_rules": [ "@Monastery/Inside Puzzles, @Places/overworld" ]
 			},
 			{
 				"name": "Laser Activation",
@@ -4710,7 +4707,7 @@
 			{
 				"name": "Door to Final Room Left Panel",
 				"visibility_rules": [ "$isNotDisabledByPostgame|6531" ],
-				"access_rules": [ "@Places/mountainPenultimateRoom, $canSolve|158445" ]
+				"access_rules": [ "$canSolve|158445, @Places/mountainPenultimateRoom" ]
 			}
 		],
 		"map_locations": [
@@ -5111,7 +5108,6 @@
 			}
 		]
 	},
-
 	{
 		"name": "Caves Wooden Beams First",
 		"visibility_rules": [ "$isNotDisabledByPostgame|166122" ],
