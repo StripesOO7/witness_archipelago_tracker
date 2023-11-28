@@ -1906,7 +1906,7 @@
 			{
 				"name": "Laser Activation",
 				"visibility_rules": [ "$isNotLaserShuffle" ],
-				"accesss_rules": [
+				"access_rules": [
 					"@Keep Tower/Laser Hedges, Unrandomized",
 					"@Keep Tower/Laser Pressure Plates"
 				]
