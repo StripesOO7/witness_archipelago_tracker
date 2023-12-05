@@ -291,7 +291,7 @@
 					"$Warp|Keep Laser",
 					"$isNotDoors, @Pressure Plates 4/Pressure Plates",
 					"$isNotDoors, $hasPanel|Keep Hedge Maze 4 (Panel), @Places/maze4, unrandomized",
-					"showSnipes, $unrandomizedDisabledButSolvable, @Places/maze4, [Keep Hedge Maze 4 Exit Door]",
+					"showSnipes, $unrandomizedDisabledButSolvable, @Places/overworld, [Keep Tower Shortcut]",
 					"Keep Tower Shortcut, @Places/overworld",
 					"Keep Hedge Maze 4 Exit Door, @Places/maze4",
 					"Keep Pressure Plates 4 Exit Door, @Places/plates4"
