@@ -22,8 +22,8 @@ function unrandomizedDisabled()
 	return (Tracker:ProviderCountForCode("Unrandomized") == 0)
 end
 
-function unrandomizedSolvable()
-	return (Tracker:ProviderCountForCode("Unrandomized") + Tracker:ProviderCountForCode("disabledPanelsEnabled") > 0)
+function unrandomizedDisabledButSolvable()
+	return (unrandomizedDisabled() and Tracker:ProviderCountForCode("disabledPanelsEnabled") > 0)
 end
 
 function longBoxWithoutMountainEntry()
